@@ -56,11 +56,11 @@ form .kontakt-rækker .kontakt-data{
   margin: 0 20px;
   position: relative;
 }
-form .kontakt-rækker .textarea{
+form .kontakt-rækker .kontakt-tekstområde{
   height: 70px;
 }
 .kontakt-data input,
-.textarea textarea{
+.kontakt-tekstområde textarea{
   display: block;
   width: 100%;
   height: 100%;
@@ -68,13 +68,13 @@ form .kontakt-rækker .textarea{
   font-size: 17px;
   border-bottom: 2px solid rgba(0,0,0, 0.12);
 }
-.kontakt-data input:focus ~ label, .textarea textarea:focus ~ label,
-.kontakt-data input:valid ~ label, .textarea textarea:valid ~ label{
+.kontakt-data input:focus ~ label, .kontakt-tekstområde textarea:focus ~ label,
+.kontakt-data input:valid ~ label, .kontakt-tekstområde textarea:valid ~ label{
   transform: translateY(-20px);
   font-size: 14px;
   color: #0020BF;
 }
-.textarea textarea{
+.kontakt-tekstområde textarea{
   resize: none;
   padding-top: 10px;
 }
@@ -85,18 +85,18 @@ form .kontakt-rækker .textarea{
   font-size: 16px;
   transition: all 0.3s ease;
 }
-.textarea label{
+.kontakt-tekstområde label{
   width: 100%;
   bottom: 40px;
   background: #fff;
 }
-.kontakt-data .underline{
+.kontakt-data .understreg{
   position: absolute;
   bottom: 0;
   height: 2px;
   width: 100%;
 }
-.kontakt-data .underline:before{
+.kontakt-data .understreg:before{
   position: absolute;
   content: "";
   height: 2px;
@@ -106,10 +106,10 @@ form .kontakt-rækker .textarea{
   transform-origin: center;
   transition: transform 0.3s ease;
 }
-.kontakt-data input:focus ~ .underline:before,
-.kontakt-data input:valid ~ .underline:before,
-.textarea textarea:focus ~ .underline:before,
-.textarea textarea:valid ~ .underline:before{
+.kontakt-data input:focus ~ .understreg:before,
+.kontakt-data input:valid ~ .understreg:before,
+.kontakt-tekstområde textarea:focus ~ .understreg:before,
+.kontakt-tekstområde textarea:valid ~ .understreg:before{
   transform: scale(1);
 }
 
