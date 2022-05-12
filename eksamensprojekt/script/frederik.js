@@ -4,10 +4,10 @@ console.log("this is working");
 function afdelingFunction() {
   let afdelingArray = new Array("København", "Aarhus", "Odense", "Malmø");
 
-  let dropdown1 = document.getElementById("afdeling");
+  let dropdown = document.getElementById("afdeling");
 
   for (let i = 0; i < afdelingArray.length; ++i) {
-    dropdown1[dropdown1.length] = new Option(afdelingArray[i], afdelingArray[i]);
+    dropdown[dropdown.length] = new Option(afdelingArray[i], afdelingArray[i]);
   }
 }
   afdelingFunction()
@@ -27,5 +27,5 @@ function hilsenfunction() {
 
   document.getElementById("hilsen").innerHTML = hilsen;
 }
-å
+
 hilsenfunction()
