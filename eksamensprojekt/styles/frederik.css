@@ -8,6 +8,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
+  background: #F7F4F4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,8 +114,11 @@ form .form-row .textarea{
 }
 
 .send-knap{
+  background: #F7F4F4;
+  display: flex;
+  justify-content: center;
   border: solid #0020BF;
-  width: 120px;
+  width: 150px;
   height: 40px;
   font-size: 15px;
   font-weight: 600;
@@ -123,23 +127,10 @@ form .form-row .textarea{
   cursor: pointer;
   transition-property: border;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
 }
 
 .send-knap:hover{
   border: solid #808FDF;
-  color: #333232;
-  width: 120px;
-  height: 40px;
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition-property: border;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
 }
 
 
