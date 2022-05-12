@@ -12,7 +12,6 @@ body{
   justify-content: center;
   min-height: 100vh;
   padding: 40px;
-  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
 }
 .container{
   max-width: 800px;
@@ -25,9 +24,7 @@ body{
   text-align: center;
   font-size: 35px;
   font-weight: 600;
-  background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #666565;
 }
 .container form{
   padding: 30px 0 0 0;
@@ -58,7 +55,7 @@ form .form-row .textarea{
 .input-data input:valid ~ label, .textarea textarea:valid ~ label{
   transform: translateY(-20px);
   font-size: 14px;
-  color: #3498db;
+  color: #0020BF;
 }
 .textarea textarea{
   resize: none;
@@ -87,7 +84,7 @@ form .form-row .textarea{
   content: "";
   height: 2px;
   width: 100%;
-  background: #3498db;
+  background: #0020BF;
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;
