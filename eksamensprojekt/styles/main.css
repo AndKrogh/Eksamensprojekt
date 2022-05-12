@@ -9,7 +9,8 @@
     "galleri-p galleri-p galleri-p galleri-p"
     "galleri-h2 galleri-h2 galleri-h2 galleri-h2"
     "img1 img2 img3 img4"
-    "img5 img2 img3 img4 " ;
+    "img5 img6 img7 img8"
+    "img9 img6 img7 img8" ;
 }
 
 .wrapper-galleri {
@@ -61,6 +62,26 @@ margin-top: 0px;
 
 #indeks-galleri .img5{
    grid-area: img5;
+   background-image: url(../images/thumbnails/img5.jpg);
+}
+
+#indeks-galleri .img6{
+   grid-area: img6;
+   background-image: url(../images/thumbnails/img5.jpg);
+}
+
+#indeks-galleri .img7{
+   grid-area: img7;
+   background-image: url(../images/thumbnails/img5.jpg);
+}
+
+#indeks-galleri .img8{
+   grid-area: img7;
+   background-image: url(../images/thumbnails/img5.jpg);
+}
+
+#indeks-galleri .img9{
+   grid-area: img9;
    background-image: url(../images/thumbnails/img5.jpg);
 }
 
