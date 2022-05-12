@@ -50,7 +50,7 @@ select{
   display: flex;
   margin: 32px 0;
 }
-form .kontakt-rækker .input-data{
+form .kontakt-rækker .kontakt-data{
   width: 100%;
   height: 40px;
   margin: 0 20px;
@@ -59,7 +59,7 @@ form .kontakt-rækker .input-data{
 form .kontakt-rækker .textarea{
   height: 70px;
 }
-.input-data input,
+.kontakt-data input,
 .textarea textarea{
   display: block;
   width: 100%;
@@ -68,8 +68,8 @@ form .kontakt-rækker .textarea{
   font-size: 17px;
   border-bottom: 2px solid rgba(0,0,0, 0.12);
 }
-.input-data input:focus ~ label, .textarea textarea:focus ~ label,
-.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+.kontakt-data input:focus ~ label, .textarea textarea:focus ~ label,
+.kontakt-data input:valid ~ label, .textarea textarea:valid ~ label{
   transform: translateY(-20px);
   font-size: 14px;
   color: #0020BF;
@@ -78,7 +78,7 @@ form .kontakt-rækker .textarea{
   resize: none;
   padding-top: 10px;
 }
-.input-data label{
+.kontakt-data label{
   position: absolute;
   pointer-events: none;
   bottom: 10px;
@@ -90,13 +90,13 @@ form .kontakt-rækker .textarea{
   bottom: 40px;
   background: #fff;
 }
-.input-data .underline{
+.kontakt-data .underline{
   position: absolute;
   bottom: 0;
   height: 2px;
   width: 100%;
 }
-.input-data .underline:before{
+.kontakt-data .underline:before{
   position: absolute;
   content: "";
   height: 2px;
@@ -106,8 +106,8 @@ form .kontakt-rækker .textarea{
   transform-origin: center;
   transition: transform 0.3s ease;
 }
-.input-data input:focus ~ .underline:before,
-.input-data input:valid ~ .underline:before,
+.kontakt-data input:focus ~ .underline:before,
+.kontakt-data input:valid ~ .underline:before,
 .textarea textarea:focus ~ .underline:before,
 .textarea textarea:valid ~ .underline:before{
   transform: scale(1);
@@ -147,7 +147,7 @@ form .kontakt-rækker .textarea{
   .kontakt-form form .kontakt-rækker{
     display: block;
   }
-  form .kontakt-rækker .input-data{
+  form .kontakt-rækker .kontakt-data{
     margin: 35px 0!important;
   }
 
