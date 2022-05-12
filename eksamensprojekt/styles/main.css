@@ -10,7 +10,7 @@
     "galleri-h2 galleri-h2 galleri-h2 galleri-h2"
     "img1 img2 img3 img4"
     "img5 img6 img7 img8"
-    "img9 img6 img7 img8" ;
+    "img9 0 0 0" ;
 }
 
 .wrapper-galleri {
@@ -72,17 +72,17 @@ margin-top: 0px;
 
 #indeks-galleri .img7{
    grid-area: img7;
-   background-image: url(../images/thumbnails/img5.jpg);
+   background-image: url(../images/thumbnails/img7.jpg);
 }
 
 #indeks-galleri .img8{
-   grid-area: img7;
-   background-image: url(../images/thumbnails/img5.jpg);
+   grid-area: img8;
+   background-image: url(../images/thumbnails/img8.jpg);
 }
 
 #indeks-galleri .img9{
    grid-area: img9;
-   background-image: url(../images/thumbnails/img5.jpg);
+   background-image: url(../images/thumbnails/img9.jpg);
 }
 
 /* galleri billede titler */
