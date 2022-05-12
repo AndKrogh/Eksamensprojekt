@@ -30,33 +30,33 @@ select{
   color: #333232;
 }
 
-.kontaktformular{
+.kontakt-form{
   max-width: 800px;
   background: #fff;
   width: 800px;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
-.kontaktformular .text{
+.kontakt-form .kontakt-overskrift{
   text-align: center;
   font-size: 35px;
   font-weight: 600;
   color: #333232;
 }
-.kontaktformular form{
+.kontakt-form form{
   padding: 30px 0 0 0;
 }
-.kontaktformular form .form-row{
+.kontakt-form form .kontakt-rækker{
   display: flex;
   margin: 32px 0;
 }
-form .form-row .input-data{
+form .kontakt-rækker .input-data{
   width: 100%;
   height: 40px;
   margin: 0 20px;
   position: relative;
 }
-form .form-row .textarea{
+form .kontakt-rækker .textarea{
   height: 70px;
 }
 .input-data input,
@@ -138,16 +138,16 @@ form .form-row .textarea{
 
 
 @media (max-width: 700px) {
-  .kontaktformular .text{
+  .kontakt-form .kontakt-overskrift{
     font-size: 30px;
   }
-  .kontaktformular form{
+  .kontakt-form form{
     padding: 10px 0 0 0;
   }
-  .kontaktformular form .form-row{
+  .kontakt-form form .kontakt-rækker{
     display: block;
   }
-  form .form-row .input-data{
+  form .kontakt-rækker .input-data{
     margin: 35px 0!important;
   }
 
