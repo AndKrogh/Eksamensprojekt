@@ -5,6 +5,7 @@
       <meta charset="utf-8">
       <title>Kontakt</title>
       <link rel="stylesheet" href="..\eksamensprojekt\styles\frederik.css">
+      <script src="..\eksamensprojekt\script\frederik.js" defer></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
@@ -27,7 +28,7 @@
               <div class="input-data">
                  <input type="text" required>
                  <div class="underline"></div>
-                 <label for="">Titel</label>
+                 <label for="">Din Titel</label>
               </div>
               <div class="input-data">
                  <input type="text" required>
@@ -42,9 +43,10 @@
                  <label for="">Telefon</label>
               </div>
               <div class="input-data">
-                 <input type="text" required>
                  <div class="underline"></div>
-                 <label for="">Afdeling</label>
+                   <select id="region" class="region" required>
+                       <option>Afdeling</option>
+                   </select>
               </div>
            </div>
            <div class="form-row">
