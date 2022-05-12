@@ -1,17 +1,17 @@
 console.log("this is working");
 
-//Region dropdown start//
-function regionFunction() {
-  let regionArray = new Array("København", "Aarhus", "Odense", "Malmø");
+//afdeling dropdown start//
+function afdelingFunction() {
+  let afdelingArray = new Array("København", "Aarhus", "Odense", "Malmø");
 
-  let dropdown1 = document.getElementById("region");
+  let dropdown1 = document.getElementById("afdeling");
 
-  for (let i = 0; i < regionArray.length; ++i) {
-    dropdown1[dropdown1.length] = new Option(regionArray[i], regionArray[i]);
+  for (let i = 0; i < afdelingArray.length; ++i) {
+    dropdown1[dropdown1.length] = new Option(afdelingArray[i], afdelingArray[i]);
   }
 }
-  regionFunction()
-//Region dropdown slut//
+  afdelingFunction()
+//afdeling dropdown slut//
 
 //GOD DAG TEKST
 function hilsenfunction() {
