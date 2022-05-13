@@ -29,7 +29,7 @@ if(galleryImg) {
             newImg.setAttribute("src", "/eksamensprojekt/images/img-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
-            
+
             newImg.onload = function () {
                 let imgWidth = this.width;
                 let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
@@ -49,6 +49,10 @@ if(galleryImg) {
                 newPrevBtn.setAttribute("class", "img-btn-prev");
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
+
+                let overlayImg = document.createElement("div");
+                let overlayImgPara = document.createElement("a");
+                let overlayImgText = document.create
             }
 
         }

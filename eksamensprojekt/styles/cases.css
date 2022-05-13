@@ -1,6 +1,6 @@
 /* galleri kontainer */
 #indeks-galleri {
-    padding: 150px 200px;
+    padding: 150px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
@@ -20,7 +20,7 @@ margin-top: 0px;
 
 #indeks-galleri .galleri-img {
     width: 100%;
-    height: 400px;
+    height: 150px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,4 +172,30 @@ margin-top: 0px;
 
 h2{
    margin: 0;
+}
+
+#current-img {
+    background-color: black;
+    opacity: ;
+   
+}
+
+@media (min-width: 900px) {
+
+    #indeks-galleri .galleri-img {
+        height: 400px;
+     }
+
+     #indeks-galleri {
+    padding: 150px 100px;
+}
+
+@media (max-width: 900px) {
+
+    #indeks-galleri .galleri-img {
+        height: 400px;
+     }
+
+     #indeks-galleri {
+    padding: 150px 100px;
 }
