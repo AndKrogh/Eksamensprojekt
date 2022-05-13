@@ -23,7 +23,7 @@ if(galleryImg) {
 
             let newImg =document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src", "/images/img-galleri/" + setNewImgUrl);
+            newImg.setAttribute("src", "/eksamensprojekt/images/img-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
             newImg.onload = function () {
