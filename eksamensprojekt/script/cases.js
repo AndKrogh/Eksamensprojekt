@@ -7,25 +7,29 @@ let windowWidth = window.innerWidth;
 if(galleryImg) {
     galleryImg.forEach(function(image, index){
         image.onclick = function() {
+            /* Finder popup billedets url */
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
             let getImgUrlPos = getFullImgUrl.split("eksamensprojekt/images/img-galleri/thumbnails/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
-
-
+        
+            /* Kompenserer for z-indeks (starter ved 0 og ikke 1). Plusser 1 på, så det første billede svarer til nummer 1  */
             getLatestOpenedeImg = index + 1;
 
+            /* Går ind og og laver en container hvor det nye billede kan være i  */
             let container = document.body;
             let newImgWindow = document.createElement("div");
             container.appendChild(newImgWindow);
             newImgWindow.setAttribute("class", "img-window");
             newImgWindow.setAttribute("onclick", "closeImg()");
 
+            /* Finder det nye billede som skal ind i containeren og sætter det ind */
             let newImg =document.createElement("img");
             newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "/eksamensprojekt/images/img-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
+            
             newImg.onload = function () {
                 let imgWidth = this.width;
                 let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
