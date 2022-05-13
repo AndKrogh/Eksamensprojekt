@@ -45,19 +45,18 @@ margin-top: 0px;
 #indeks-galleri .img2{
    grid-area: img2;
    background-image: url(../images/thumbnails/img2.jpg);
-   height: 610px;
+   
 }
 
 #indeks-galleri .img3{
    grid-area: img3;
-   background-image: url(../images/thumbnails/img3.jpg);
-   height: 610px;
+   background-image: url(../images/thumbnails/img3.jpg);  
 }
 
 #indeks-galleri .img4{
    grid-area: img4;
    background-image: url(../images/thumbnails/img4.jpg);
-   height: 610px;
+   
 }
 
 #indeks-galleri .img5{
@@ -95,6 +94,8 @@ margin-top: 0px;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .galleri-img a {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
