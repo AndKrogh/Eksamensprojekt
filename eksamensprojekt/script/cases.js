@@ -30,6 +30,10 @@ if(galleryImg) {
             newImg.setAttribute("id", "current-img");
 
 
+            
+
+
+
             newImg.onload = function () {
                 let imgWidth = this.width;
                 let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
@@ -50,9 +54,16 @@ if(galleryImg) {
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
-                let overlayImg = document.createElement("div");
-                let overlayImgPara = document.createElement("a");
-                let overlayImgText = document.create
+                let overlayDiv = document.createElement("a");
+                let overlayText = document.createTextNode("hej");
+                overlayDiv.appendChild(overlayText);
+                container.appendChild(overlayDiv);
+                overlayDiv.setAttribute("class", "overlay-text-popup");
+                overlayDiv.setAttribute("onclick", "changeImg(0)");
+                overlayDiv.style.textAlign = "center" ;
+
+                
+
             }
 
         }
@@ -64,6 +75,7 @@ function closeImg () {
     document.querySelector(".img-window").remove();
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
+    document.querySelector(".overlay-text-popup").remove();
 
 }
 
@@ -102,6 +114,8 @@ function changeImg(changeDir) {
 
         let prevBtn = document.querySelector(".img-btn-prev");
         prevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
+
+        
 
     }
 

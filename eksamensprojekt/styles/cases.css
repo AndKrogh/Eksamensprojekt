@@ -174,10 +174,20 @@ h2{
    margin: 0;
 }
 
-#current-img {
-    background-color: black;
-    opacity: ;
-   
+
+.overlay-text-popup {
+    display: block;
+   padding: 6px 10px;
+   border-radius: 4px;
+   background-color: #111111;
+   position: fixed;
+   top: 30vh;
+   left: 50vw;
+   z-index: 500;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+   cursor: pointer;
+   text-transform: uppercase;
 }
 
 @media (min-width: 900px) {
