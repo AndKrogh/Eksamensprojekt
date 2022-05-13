@@ -9,7 +9,7 @@ if(galleryImg) {
         image.onclick = function() {
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
-            let getImgUrlPos = getFullImgUrl.split("/images/billeder-til-js-galleri/thums/");
+            let getImgUrlPos = getFullImgUrl.split("/images/img-galleri/thumbnails/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
 
 
@@ -23,7 +23,7 @@ if(galleryImg) {
 
             let newImg =document.createElement("img");
             newImgWindow.appendChild(newImg);
-            newImg.setAttribute("src", "/images/billeder-til-js-galleri/" + setNewImgUrl);
+            newImg.setAttribute("src", "/images/img-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
             newImg.onload = function () {
@@ -80,7 +80,7 @@ function changeImg(changeDir) {
         }
     }
 
-    newImg.setAttribute("src", "images/billeder-til-js-galleri/img" + calcNewImg + ".jpg");
+    newImg.setAttribute("src", "images/img-galleri/img" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
 
     getLatestOpenedeImg = calcNewImg;
