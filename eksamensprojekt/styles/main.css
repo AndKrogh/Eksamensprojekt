@@ -39,49 +39,49 @@ margin-top: 0px;
 
 #indeks-galleri .img1{
    grid-area: img1;
-   background-image: url(../images/thumbnails/img1.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img1.jpg);
 }
 
 #indeks-galleri .img2{
    grid-area: img2;
-   background-image: url(../images/thumbnails/img2.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img2.jpg);
    
 }
 
 #indeks-galleri .img3{
    grid-area: img3;
-   background-image: url(../images/thumbnails/img3.jpg);  
+   background-image: url(../images/img-galleri/thumbnails/img3.jpg);  
 }
 
 #indeks-galleri .img4{
    grid-area: img4;
-   background-image: url(../images/thumbnails/img4.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img4.jpg);
    
 }
 
 #indeks-galleri .img5{
    grid-area: img5;
-   background-image: url(../images/thumbnails/img5.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img5.jpg);
 }
 
 #indeks-galleri .img6{
    grid-area: img6;
-   background-image: url(../images/thumbnails/img6.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img6.jpg);
 }
 
 #indeks-galleri .img7{
    grid-area: img7;
-   background-image: url(../images/thumbnails/img7.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img7.jpg);
 }
 
 #indeks-galleri .img8{
    grid-area: img8;
-   background-image: url(../images/thumbnails/img8.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img8.jpg);
 }
 
 #indeks-galleri .img9{
    grid-area: img9;
-   background-image: url(../images/thumbnails/img9.jpg);
+   background-image: url(../images/img-galleri/thumbnails/img9.jpg);
 }
 
 /* galleri billede titler */

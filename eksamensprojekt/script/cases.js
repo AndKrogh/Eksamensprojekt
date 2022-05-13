@@ -9,7 +9,7 @@ if(galleryImg) {
         image.onclick = function() {
             let getElementCss = window.getComputedStyle(image);
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
-            let getImgUrlPos = getFullImgUrl.split("/images/img-galleri/thumbnails/");
+            let getImgUrlPos = getFullImgUrl.split("eksamensprojekt/images/img-galleri/thumbnails/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
 
 
@@ -25,7 +25,7 @@ if(galleryImg) {
             newImgWindow.appendChild(newImg);
             newImg.setAttribute("src", "/images/img-galleri/" + setNewImgUrl);
             newImg.setAttribute("id", "current-img");
-            
+            alert(getImgUrlPos);
 
             newImg.onload = function () {
                 let imgWidth = this.width;
