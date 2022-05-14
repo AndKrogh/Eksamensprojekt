@@ -1,3 +1,4 @@
+/*Frederik CSS start*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 
 *{
@@ -15,8 +16,6 @@ body{
   min-height: 100vh;
   padding: 40px;
 }
-
-/**/
 
 .afdeling {
   border-bottom: 2px solid #E5E2E2;
@@ -139,6 +138,7 @@ form .kontakt-rækker .kontakt-tekstområde{
 }
 
 
+
 @media (max-width: 700px) {
   .kontakt-form .kontakt-overskrift{
     font-size: 30px;
@@ -157,3 +157,4 @@ form .kontakt-rækker .kontakt-tekstområde{
     margin-top: 750px;
   }
 }
+/*Frederik CSS slut*/
