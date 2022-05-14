@@ -1,6 +1,6 @@
 console.log("this is working");
 
-//afdeling dropdown start//
+//afdeling dropdown start
 function afdelingFunction() {
   let afdelingArray = new Array("København", "Aarhus", "Odense", "Malmø");
 
@@ -11,9 +11,10 @@ function afdelingFunction() {
   }
 }
   afdelingFunction()
-//afdeling dropdown slut//
+//afdeling dropdown slut
 
-//GOD DAG TEKST
+
+//God dag text start
 function hilsenfunction() {
 
   const hour = new Date().getHours();
@@ -29,3 +30,4 @@ function hilsenfunction() {
 }
 
 hilsenfunction()
+//God dag text slut
