@@ -189,6 +189,25 @@ h2{
    text-transform: uppercase;
 }
 
+#clients{
+  padding: 150px 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-template-rows: auto;
+   grid-gap: 10px;
+   grid-template-areas:
+   "galleri-p galleri-p galleri-p "
+   "galleri-h2 galleri-h2 galleri-h2 "
+   "img1 img2 img3 "
+   "img4 img5 img6 "
+   "img7 img8 img9" 
+   "img10 img11 img12 "
+   "img13 img5 img6 "
+   "img7 img8 img9"
+   "img1 img2 img3 "
+   "img4 img5 img6 "
+   "img7 img8 img9";
+}
 @media (min-width: 900px) {
 
     #indeks-galleri .galleri-img {
