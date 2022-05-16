@@ -231,7 +231,85 @@ h2{
 
 }
 
-#indeks-galleri .img9{
+#clients .img9{
+   grid-area: img9;
+}
+
+#clients .img10{
+   grid-area: img10;
+}
+
+#clients .img11{
+   grid-area: img11;
+   
+}
+
+#clients .img12{
+   grid-area: img12;  
+}
+
+#clients .img13{
+   grid-area: img13;
+   
+}
+
+#clients .img14{
+   grid-area: img14;
+}
+
+#clients.img15{
+   grid-area: img15;
+}
+
+#clients .img16{
+   grid-area: img16;
+}
+
+#clients .img17{
+   grid-area: img17;
+
+}
+
+#clients .img18{
+   grid-area: img18;
+}
+
+#clients .img19{
+   grid-area: img19;
+}
+
+#clients .img20{
+   grid-area: img20;
+   
+}
+
+#clients .img21{
+   grid-area: img21;  
+}
+
+#clients .img22{
+   grid-area: img22;
+   
+}
+
+#clients .img5{
+   grid-area: img5;
+}
+
+#clients.img6{
+   grid-area: img6;
+}
+
+#clients .img7{
+   grid-area: img7;
+}
+
+#clients .img8{
+   grid-area: img8;
+
+}
+
+#clients .img9{
    grid-area: img9;
 }
 
