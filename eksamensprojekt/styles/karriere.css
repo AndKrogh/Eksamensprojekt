@@ -1,0 +1,32 @@
+.karriereTitel {
+text-align: center;
+margin-top: 1.5rem;
+color: #666565;
+}
+
+.karriereUndertekst {
+text-align: center;
+margin-top: 1.5rem;
+color: #666565;
+}
+
+.karriereContent{
+  display: grid;
+  gap: 1.5rem;
+}
+
+.karriereboxImg{
+background: #BFC7EF;
+grid-gap: 1.5rem;
+padding: 1rem;
+}
+
+.karriereboxText{
+position: relative;
+background: #BFC7EF;
+grid-gap: 1.5rem;
+padding: 1rem;
+}
+
+.contentText{
+}
