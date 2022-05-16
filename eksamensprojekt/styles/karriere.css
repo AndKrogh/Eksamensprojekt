@@ -15,18 +15,42 @@ color: #666565;
   gap: 1.5rem;
 }
 
-.karriereboxImg{
-background: #BFC7EF;
-grid-gap: 1.5rem;
-padding: 1rem;
-}
-
-.karriereboxText{
+.karrierebox1{
 position: relative;
-background: #BFC7EF;
+background: #ffffff;
 grid-gap: 1.5rem;
 padding: 1rem;
+border-radius: 5px;
 }
 
-.contentText{
+.karrierebox2{
+position: relative;
+background: #ffffff;
+grid-gap: 1.5rem;
+padding: 1rem;
+border-radius: 5px;
+}
+
+.imgbox1 {
+height: 30%;
+width: auto;
+float: left;
+}
+
+.imgbox2 {
+height: 30%;
+width: auto;
+float: right;
+}
+
+.karriereText1{
+text-align: left;
+float:right;
+margin:3rem;
+}
+
+.karriereText2{
+text-align: left;
+float:left;
+margin:3rem;
 }
