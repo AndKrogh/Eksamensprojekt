@@ -5,7 +5,7 @@
   font-family: 'Poppins';
 }
 section {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   display: grid;
   place-items: center;
@@ -31,6 +31,11 @@ section {
   cursor: pointer;
   transition: 0.5s;
 }
+
+h2 {
+  font-size: 30px;
+}
+
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -42,6 +47,8 @@ p {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  font-weight: bold;
+  text-shadow:
 }
 .icon-wrapper {
   background-color: #0020BF;
@@ -82,6 +89,19 @@ p {
   color: #ffffff;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (min-width: 768px) {
   section {
     padding: 0 2em;
@@ -99,4 +119,5 @@ p {
     flex: 0 0 33.33%;
     max-width: 33.33%;
   }
+
 }
