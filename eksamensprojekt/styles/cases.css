@@ -20,18 +20,18 @@
     height: 0;
     width: 180px;
     border-top: 160px solid rgb(0, 66, 128);
-    border-left: 90px solid transparent;
-    border-right: 90px solid transparent;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
   }
  
   .pentagon:after{
     position: absolute;
     content: '';
-    border-bottom: 160px solid rgb(0, 66, 128);
-    border-left: 180px solid transparent;
-    border-right: 180px solid transparent;
+    border-bottom: 140px solid rgb(0, 66, 128);
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
     bottom: 160px;
-    left: -90px;
+    left: -70px;
   }
 
 .cases-titel {
