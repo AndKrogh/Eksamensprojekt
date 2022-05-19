@@ -14,7 +14,7 @@
 
 .pentagon1 {
    position: absolute;
-   transform:rotate(-9deg) ;
+   transform:rotate(-12deg) ;
    height: 62%;
     width: 35%;
    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
@@ -22,9 +22,9 @@
    position: absolute;
    margin-left: auto;
    margin-right: auto;
-   left: -60%;
+   left: -62%;
    right: 0;
-   bottom: 42%;
+   bottom: 40%;
 }
 
   .pentagon2{
