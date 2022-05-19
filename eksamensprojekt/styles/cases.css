@@ -6,7 +6,6 @@
 
 .banner{
    height: 50vh;
-   width: 100vw;
    background-color: #E3CF62;
    color: #F7F4F4;
    padding-top: 210px;
@@ -16,12 +15,17 @@
 
 
   .pentagon2{
-     margin: auto;
    position: absolute;
+   transform:rotate(-5deg) ;
    height: 50%;
     width: 30%;
    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
    background: #f44ff4;
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 60%;
+   right: 0;
   }
  
 
