@@ -197,6 +197,8 @@ body{
 
 
 
+/* Responsivitet på banneret */
+
 @media (max-width: 1200px) {
 
    .banner{
