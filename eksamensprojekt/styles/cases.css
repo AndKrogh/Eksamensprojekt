@@ -26,20 +26,20 @@
    bottom: 40%;
 }
 
-  .pentagon2{
-   position: absolute;
-   transform:rotate(9deg) ;
-   height: 62%;
-    width: 35%;
-   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-   background: #f7f4f42a;
-   margin-left: auto;
-   margin-right: auto;
-   left: 60%;
-   right: 0;
-   bottom: 15%;
-  }
- 
+.pentagon2{
+position: absolute;
+transform:rotate(9deg) ;
+height: 62%;
+   width: 35%;
+clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+background: #f7f4f42a;
+margin-left: auto;
+margin-right: auto;
+left: 60%;
+right: 0;
+bottom: 15%;
+}
+
 
 .cases-titel {
    font-size: 3.5rem;
