@@ -214,6 +214,20 @@ h2{
    text-transform: uppercase;
 }
 
+.overskrift-samarbejdspartnere {
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+.overskrift-samarbejdspartnere h3 {
+   font-size: 2rem;
+
+}
+
+.overskrift-samarbejdspartnere p {
+   font-size: 1.2rem;
+}
+
 #clients {
   display: flex;
   flex-wrap: wrap;
