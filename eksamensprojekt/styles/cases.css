@@ -15,24 +15,27 @@
 
  .pentagon{
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 80%;
+    left: 50%;
     transform: translate(-50%, -50%);
     height: 0;
-    width: 360px;
+    width: 350px;
     border-top: 240px solid rgba(207, 207, 207, 0.397);
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    z-index: 1;
+    transform: rotate(10deg);
   }
  
   .pentagon:after{
     position: absolute;
     content: '';
-    border-bottom: 210px solid rgba(207, 207, 207, 0.397);
-    border-left: 240px solid transparent;
-    border-right: 240px solid transparent;
+    border-bottom: 200px solid rgba(207, 207, 207, 0.397);
+    border-left: 255px solid transparent;
+    border-right: 255px solid transparent;
     bottom: 240px;
-    left: -60px;
+    left: -80px;
+    z-index: 1;
   }
 
 .cases-titel {
@@ -48,6 +51,8 @@
 
 /* galleri kontainer */
 #indeks-galleri {
+   
+    z-index: 100;
     padding: 150px 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
