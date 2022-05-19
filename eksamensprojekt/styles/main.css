@@ -26,6 +26,18 @@ body{
   margin-right: auto;
   width: 5%;
   padding: 10px;
+  float: left;
+}
+
+.navbtn{
+  border: 2px solid #0020BF;
+  background-color: #ffffff;
+  color: #333232;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  float: left;
 }
 
 .navPunkter {
