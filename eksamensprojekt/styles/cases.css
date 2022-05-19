@@ -229,7 +229,7 @@ h2{
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
    .cases-titel {
    font-size: 2.2rem;
    }
@@ -238,7 +238,27 @@ h2{
       font-size: 1rem;
    }
 
-   
+   #indeks-galleri .galleri-img {
+      height: 300px;
+   }
+  
+
+
+}
+
+
+@media (max-width: 800px) {
+   .cases-titel {
+   font-size: 1.9rem;
+   }
+
+   .cases-undertitel {
+      font-size: 0.9rem;
+   }
+
+   #indeks-galleri .galleri-img {
+      height: 130px;
+   }
   
 
   
