@@ -13,10 +13,10 @@
   text-align: center;
 }
 
- .pentagon{
+ .pentagon1{
     position: absolute;
-    top: 80%;
-    left: 50%;
+    top: 52%;
+    left: 70%;
     transform: translate(-50%, -50%);
     height: 0;
     width: 350px;
@@ -27,7 +27,7 @@
     transform: rotate(10deg);
   }
  
-  .pentagon:after{
+  .pentagon1:after{
     position: absolute;
     content: '';
     border-bottom: 200px solid rgba(207, 207, 207, 0.397);
@@ -36,6 +36,29 @@
     bottom: 240px;
     left: -80px;
     z-index: 1;
+  }
+
+   .pentagon2{
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    height: 0;
+    width: 345px;
+    border-top: 220px solid rgba(207, 207, 207, 0.397);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    transform: rotate(160deg);
+  }
+ 
+  .pentagon2:after{
+    position: absolute;
+    content: '';
+    border-bottom: 210px solid rgba(207, 207, 207, 0.397);
+    border-left: 265px solid transparent;
+    border-right: 240px solid transparent;
+    bottom: 230px;
+    left: -80px;
+
   }
 
 .cases-titel {
