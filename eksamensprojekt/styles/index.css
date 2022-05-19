@@ -9,9 +9,6 @@
 background-color: #0020BF;
 }
 
-
-
-
 /* Service segment start */
 .index-service {
   width: 100%;
@@ -55,6 +52,7 @@ p {
   font-size: 20px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  align-items: center;
 }
 
 .icon-wrapper {
@@ -117,7 +115,15 @@ color: #fff;
 
 
 /* Karriere segment start */
-.bigimage {
+.index-sektion{
+  padding: 5em 1em;
+  width: 100%;
+  height: 500px;
+  display: grid;
+  place-items: center;
+}
+
+.index-billede {
   color: white;
   display: flex;
   justify-content: center;
@@ -128,14 +134,6 @@ color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("C:/Users/frede/OneDrive/Dokumenter/GitHub/Eksamensprojekt/eksamensprojekt/images/andre/karriere.jpg");
-}
-
-.index-billede{
-  padding: 5em 1em;
-  width: 100%;
-  height: 500px;
-  display: grid;
-  place-items: center;
 }
 
 .index-imtekst{
@@ -183,7 +181,7 @@ color: #666565;
 
 
 /* Karriere segment start */
-  .index-billede{
+  .index-sektion{
     padding: 5em 3em;
     width: 100%;
   }
@@ -193,7 +191,7 @@ color: #666565;
 
 @media screen and (min-width: 992px) {
 
-  
+
   /* Service segment start */
   .index-service {
     padding: 1em 3em;
@@ -207,7 +205,7 @@ color: #666565;
 
 
 /* Karriere segment start */
-  .index-billede{
+  .index-sektion{
     padding: 5em 4em;
     width: 100%;
   }
@@ -221,7 +219,7 @@ color: #666565;
    height: 30vh;
    padding-top: 210px;
    }
-   
+
    .cases-titel {
    font-size: 2.2rem;
    }
@@ -247,7 +245,7 @@ color: #666565;
    height: 25vh;
    padding-top: 210px;
    }
-   
+
    .cases-titel {
    font-size: 1.rem;
    }
