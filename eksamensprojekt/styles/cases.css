@@ -4,26 +4,23 @@
 }
 
 .banner{
-  
    height: 70vh;
    width: 100vw;
    background-color: #E3CF62;
    color: #F7F4F4;
+   padding-top: 180px;
+  text-align: center;
 }
 
-h1 {
-   display: flex;
-   height: 15vh;
-   align-items: center;
-   justify-content: center;
+.cases-titel {
+   text-align: center;
 }
 
-p  {
-   display: flex;
-   height: 15vh;
-   align-items: center;
-   justify-content: center;
+.cases-undertitel {
+   text-align: center;
 }
+
+
 
 
 /* galleri kontainer */
