@@ -19,7 +19,6 @@
     width: 35%;
    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
    background: #f7f4f42a;
-   position: absolute;
    margin-left: auto;
    margin-right: auto;
    left: -62%;
@@ -34,7 +33,6 @@
     width: 35%;
    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
    background: #f7f4f42a;
-   position: absolute;
    margin-left: auto;
    margin-right: auto;
    left: 60%;
@@ -282,9 +280,40 @@ h2{
 
 
 @media (max-width: 1200px) {
+
+   .banner{
+   height: 50vh;
+   background-color: #E3CF62;
+   color: #F7F4F4;
+   padding-top: 210px;
+  text-align: center;
+   }
    .cases-titel {
    font-size: 2.2rem;
    }
+
+   .pentagon1 {
+   transform:rotate(-12deg) ;
+   height: 25%;
+    width: 35%;
+   margin-left: auto;
+   margin-right: auto;
+   left: -62%;
+   right: 0;
+   bottom: 40%;
+}
+
+  .pentagon2{
+   transform:rotate(9deg) ;
+   height: 62%;
+    width: 35%;
+   margin-left: auto;
+   margin-right: auto;
+   left: 60%;
+   right: 0;
+   bottom: 15%;
+  }
+ 
 
    .cases-undertitel {
       font-size: 1rem;
