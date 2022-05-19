@@ -19,7 +19,7 @@
     transform: translate(-50%, -50%);
     height: 0;
     width: 180px;
-    border-top: 160px solid rgb(0, 66, 128);
+    border-top: 160px solid rgba(207, 207, 207, 0.397);
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
   }
@@ -27,7 +27,7 @@
   .pentagon:after{
     position: absolute;
     content: '';
-    border-bottom: 130px solid rgb(0, 66, 128);
+    border-bottom: 130px solid rgba(207, 207, 207, 0.397);
     border-left: 160px solid transparent;
     border-right: 160px solid transparent;
     bottom: 160px;
