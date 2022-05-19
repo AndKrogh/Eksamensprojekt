@@ -246,7 +246,15 @@ h2{
    #indeks-galleri .galleri-img {
       height: 300px;
    }
-  
+
+   #clients {
+      gap: 5px;
+   }
+
+  #clients img {
+   height: 140px;
+   width: 100%;
+}
 
 
 }
@@ -264,8 +272,16 @@ h2{
    #indeks-galleri .galleri-img {
       height: 130px;
    }
-  
 
+    #clients {
+      gap: 5px;
+   }
+
+
+   #clients img {
+   height: 40px;
+   width: 100%;
+}
   
 
 }
