@@ -27,7 +27,7 @@
   .pentagon:after{
     position: absolute;
     content: '';
-    border-bottom: 140px solid rgb(0, 66, 128);
+    border-bottom: 130px solid rgb(0, 66, 128);
     border-left: 160px solid transparent;
     border-right: 160px solid transparent;
     bottom: 160px;
