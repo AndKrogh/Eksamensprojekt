@@ -12,20 +12,34 @@
   text-align: center;
 }
 
-
-
-  .pentagon2{
+.pentagon1 {
    position: absolute;
-   transform:rotate(-5deg) ;
-   height: 50%;
-    width: 30%;
+   transform:rotate(9deg) ;
+   height: 62%;
+    width: 35%;
    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
-   background: #f44ff4;
+   background: #f7f4f42a;
    position: absolute;
    margin-left: auto;
    margin-right: auto;
    left: 60%;
    right: 0;
+   bottom: 15%;
+}
+
+  .pentagon2{
+   position: absolute;
+   transform:rotate(9deg) ;
+   height: 62%;
+    width: 35%;
+   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+   background: #f7f4f42a;
+   position: absolute;
+   margin-left: auto;
+   margin-right: auto;
+   left: 60%;
+   right: 0;
+   bottom: 15%;
   }
  
 
