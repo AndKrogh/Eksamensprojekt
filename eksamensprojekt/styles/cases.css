@@ -20,19 +20,19 @@
     transform: translate(-50%, -50%);
     height: 0;
     width: 360px;
-    border-top: 200px solid rgba(207, 207, 207, 0.397);
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
+    border-top: 240px solid rgba(207, 207, 207, 0.397);
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
   }
  
   .pentagon:after{
     position: absolute;
     content: '';
-    border-bottom: 120px solid rgba(207, 207, 207, 0.397);
-    border-left: 160px solid transparent;
-    border-right: 160px solid transparent;
-    bottom: 200px;
-    left: -70px;
+    border-bottom: 210px solid rgba(207, 207, 207, 0.397);
+    border-left: 240px solid transparent;
+    border-right: 240px solid transparent;
+    bottom: 240px;
+    left: -60px;
   }
 
 .cases-titel {
