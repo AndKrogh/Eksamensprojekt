@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 .banner{
@@ -205,6 +204,7 @@ h2{
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .column {
@@ -224,6 +224,7 @@ h2{
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   transition: 0.5s;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -307,6 +308,7 @@ color: #fff;
   height: 500px;
   display: grid;
   place-items: center;
+  box-sizing: border-box;
 }
 
 .index-billede {
@@ -359,9 +361,6 @@ text-shadow: 2px 2px 4px #F7F4F4;
 
 @media screen and (min-width: 768px) {
   /* Service segment start */
-  .index-service {
-    padding: 0 2em;
-  }
 
   .column {
     flex: 0 50%;
@@ -383,9 +382,6 @@ text-shadow: 2px 2px 4px #F7F4F4;
 
 
   /* Service segment start */
-  .index-service {
-    padding: 1em 3em;
-  }
 
   .column {
     flex: 0 0 33.33%;
