@@ -9,11 +9,6 @@
 }
 body{
   background: #F7F4F4;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 40px;
 }
 
 .afdeling {
@@ -30,12 +25,21 @@ select{
   color: #333232;
 }
 
+.kontakt-sektion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
 .kontakt-form{
   max-width: 800px;
   background: #fff;
   width: 800px;
   padding: 25px 40px 10px 40px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
 }
 .kontakt-form .kontakt-overskrift{
   text-align: center;
