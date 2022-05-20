@@ -161,11 +161,13 @@ body{
   text-align: center;
   overflow: hidden;
   flex-direction: row;
+  margin-top: 30px;
 }
 
 .footerOverskrift{
   font-size: 30px;
   color: #333232;
+  margin-bottom: 15px;
 }
 
 .btn{
@@ -187,7 +189,7 @@ body{
 .wrapper {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5px;
+  margin-top: 15px;
   text-align: center;
   justify-content: space-evenly;
   flex-direction: column;
