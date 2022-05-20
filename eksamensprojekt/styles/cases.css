@@ -1,5 +1,4 @@
 *{
-   font-family: 'Gotham';
    padding: 0%;
    margin: 0%;
 }
@@ -203,10 +202,10 @@ h2{
 .divPopup {
    position: fixed;
    display: block;
-   height: 50vh;
-   width: 60vw;
+   height: 30vh;
+   width: 30vw;
    top: 20vh;
-   left: 20vw;
+   left: 40vw;
    z-index: 600;
    background-color: red;
 }
