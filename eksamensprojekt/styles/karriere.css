@@ -19,6 +19,10 @@ margin-top: 1.5rem;
 color: #666565;
 }
 
+.karriereContainer{
+  margin-top: 20px;
+}
+
 .karriereContent{
   display: grid;
   gap: 1.5rem;

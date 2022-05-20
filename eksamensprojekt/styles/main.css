@@ -1,5 +1,5 @@
 body{
-  font-family: 'Gotham' sans-serif;
+  font-family: Gotham, sans-serif;
   background: #F7F4F4;
 }
 
@@ -21,6 +21,10 @@ body{
   color:inherit;
 }
 
+.navbar{
+  margin-bottom: 30px;
+}
+
 .logo img {
   display: block;
   margin-right: auto;
@@ -37,13 +41,25 @@ body{
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
-  float: left;
+}
+
+.navbtn:hover {
+  background-color: #0020BF;
+  color: #ffffff;
+}
+
+.navright{
+  padding: 10px;
+  float: right;
+  margin-top: 10px;
 }
 
 .navPunkter {
   display: flex;
   width: 40%;
   justify-content: space-around;
+  white-space: nowrap;
+  margin-top: 45px;
 }
 
 .navPunkter ul {
@@ -145,11 +161,13 @@ body{
   text-align: center;
   overflow: hidden;
   flex-direction: row;
+  margin-top: 30px;
 }
 
 .footerOverskrift{
   font-size: 30px;
   color: #333232;
+  margin-bottom: 15px;
 }
 
 .btn{
@@ -171,7 +189,7 @@ body{
 .wrapper {
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 5px;
+  margin-top: 15px;
   text-align: center;
   justify-content: space-evenly;
   flex-direction: column;
