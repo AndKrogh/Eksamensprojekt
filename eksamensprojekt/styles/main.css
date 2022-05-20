@@ -58,6 +58,7 @@ body{
   display: flex;
   width: 40%;
   justify-content: space-around;
+  white-space: nowrap;
   margin-top: 45px;
 }
 
