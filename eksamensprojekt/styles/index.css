@@ -195,88 +195,61 @@ h2{
 
 
 /* Service segment start */
-.index-service {
-  width: 100%;
-  display: grid;
-  place-items: center;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.column {
-  width: 100%;
-  padding: 0 1em 1em 1em;
+.services{
+  background: #f1f1f1;
   text-align: center;
 }
-
-.card {
-  width: 100%;
-  height: 100%;
-  padding: 2em 1.5em;
-  background: linear-gradient(#ffffff 50%, #0020BF 50%);
-  background-size: 100% 200%;
-  background-position: 0 2.5%;
-  border-radius: 5px;
-  box-shadow: 0 0 35px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
-  transition: 0.5s;
-  box-sizing: border-box;
-}
-
-h3 {
+.services h1{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #3498db;
   font-size: 20px;
-  font-weight: 600;
-  color: #1f194c;
-  margin: 1em 0;
+  padding-bottom: 10px;
+  margin-top: 40px;
 }
-
-p {
-  color: white;
-  font-size: 20px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  align-items: center;
-}
-
-.icon-wrapper {
-  background-color: #0020BF;
-  position: relative;
+.cen{
+  max-width: 1200px;
   margin: auto;
-  font-size: 30px;
-  height: 2.5em;
-  width: 2.5em;
-  color: #ffffff;
-  border-radius: 50%;
-  display: grid;
-  place-items: center;
-  transition: 0.5s;
+  overflow: hidden;
+  padding: 20px;
 }
-
-.card:hover {
-  background-position: 0 100%;
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
 }
-
-.card:hover .icon-wrapper {
-  background-color: #ffffff;
-  color: #0020BF;
+.service:hover{
+  background: #ddd;
 }
-
-.card:hover h3 {
-  color: #ffffff;
+.service i{
+  color: #3498db;
+  font-size: 34px;
+  margin-bottom: 30px;
 }
-
-.card:hover p {
-  color: #f0f0f0;
+.service h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
 }
-
-.index-ny{
-  font-weight: bold;
-  font-size: 13px;
-  color: #FF5B4C;
+.service p{
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .service{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .service{
+    width: 100%;
+  }
 }
 
 .index-servbutton {
@@ -361,6 +334,9 @@ text-shadow: 2px 2px 4px #F7F4F4;
 
 @media screen and (min-width: 768px) {
   /* Service segment start */
+  .index-service {
+    padding: 0 2em;
+  }
 
   .column {
     flex: 0 50%;
@@ -382,6 +358,9 @@ text-shadow: 2px 2px 4px #F7F4F4;
 
 
   /* Service segment start */
+  .index-service {
+    padding: 1em 3em;
+  }
 
   .column {
     flex: 0 0 33.33%;
