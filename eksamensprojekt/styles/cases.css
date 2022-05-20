@@ -113,7 +113,6 @@ margin-top: 0px;
 
 
 .galleri-img a {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 18px;
   color: #ffff;
   text-decoration: none;
@@ -155,7 +154,6 @@ margin-top: 0px;
    position: fixed;
    top: 48vh;
    z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: white;
    cursor: pointer;
    text-transform: uppercase;
@@ -173,7 +171,6 @@ margin-top: 0px;
    position: fixed;
    top: 48vh;
    z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: white;
    cursor: pointer;
    text-transform: uppercase;
@@ -201,6 +198,17 @@ h2{
    color: white;
    cursor: pointer;
    text-transform: uppercase;
+}
+
+.divPopup {
+   position: fixed;
+   display: block;
+   height: 50vh;
+   width: 60vw;
+   top: 20vh;
+   left: 20vw;
+   z-index: 600;
+   background-color: red;
 }
 
 .overskrift-samarbejdspartnere {

@@ -4,6 +4,7 @@ let galleryImg = document.querySelectorAll(".galleri-img");
 let getLatestOpenedeImg;
 let windowWidth = window.innerWidth;
 
+
 if(galleryImg) {
     galleryImg.forEach(function(image, index){
         image.onclick = function() {
@@ -54,15 +55,16 @@ if(galleryImg) {
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
-                let overlayDiv = document.createElement("a");
-                let overlayText = document.createTextNode("hej");
-                overlayDiv.appendChild(overlayText);
+                let overlayDiv = document.createElement("div");
+                let overlayP = document.createElement("p");
+                let overlayText = document.createTextNode("hej med dig ");
+                overlayDiv. appendChild(overlayP);
+                overlayP.appendChild(overlayText);
                 container.appendChild(overlayDiv);
-                overlayDiv.setAttribute("class", "overlay-text-popup");
+                overlayDiv.setAttribute("class", "divPopup");
                 overlayDiv.setAttribute("onclick", "changeImg(0)");
-                overlayDiv.style.textAlign = "center" ;
-
-                
+                overlayP.setAttribute("class", "overlay-text-popup");
+                overlayP.style.textAlign = "center" ;
 
             }
 
@@ -75,7 +77,8 @@ function closeImg () {
     document.querySelector(".img-window").remove();
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
-    document.querySelector(".overlay-text-popup").remove();
+    document.querySelector(".divPopup").remove();
+    
 
 }
 
