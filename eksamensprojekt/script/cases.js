@@ -57,7 +57,7 @@ if(galleryImg) {
 
                 let overlayDiv = document.createElement("div");
                 let overlayP = document.createElement("p");
-                let overlayText = document.createTextNode("hej med dig ");
+                let overlayText = document.createTextNode("Hej med dig ");
                 overlayDiv. appendChild(overlayP);
                 overlayP.appendChild(overlayText);
                 container.appendChild(overlayDiv);

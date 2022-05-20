@@ -193,10 +193,11 @@ h2{
    top: 30vh;
    left: 50vw;
    z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    color: white;
    cursor: pointer;
-   text-transform: uppercase;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .divPopup {
@@ -204,10 +205,12 @@ h2{
    display: block;
    height: 30vh;
    width: 30vw;
-   top: 20vh;
-   left: 40vw;
+   top: 20%;
+   left: 40%;
    z-index: 600;
-   background-color: red;
+   background-color: rgba(0, 0, 0, 0.479);
+   justify-content: center;
+   
 }
 
 .overskrift-samarbejdspartnere {
