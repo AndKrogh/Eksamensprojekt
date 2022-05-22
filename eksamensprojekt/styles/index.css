@@ -29,7 +29,7 @@ background-color: #0020BF;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
-    padding: 150px 20px;
+    padding: 75px 20px;
 
 }
 
@@ -37,7 +37,6 @@ background-color: #0020BF;
     position: relative;
     height: 300px;
     width: 303px;
-    border-radius: 6px;
     overflow: hidden;
 }
 .index-cases-images{
@@ -52,8 +51,6 @@ background-color: #0020BF;
 .index-cases-images .index-image-boks img{
     height: 100%;
     width: 100%;
-    border-radius: 6px;
-    transition: transform 0.2s linear;
     cursor: pointer;
 }
 
@@ -159,7 +156,7 @@ background-color: #0020BF;
 }
 
 .cen{
-  max-width: 1200px;
+  max-width: 1400px;
   margin: auto;
   margin-top: 40px;
   overflow: hidden;
