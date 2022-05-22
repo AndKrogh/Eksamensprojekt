@@ -3,6 +3,16 @@
   margin: 0;
 }
 
+
+h2{
+  margin: 0;
+}
+
+h3 {
+    font-weight: 500;
+    color: #666565;
+  }
+
 .banner{
 background-color: #0020BF;
 }
@@ -156,8 +166,6 @@ margin-top: 0px;
    opacity: 0.8;
 }
 
-h2{
-   margin: 0;
 
 }
 
@@ -216,27 +224,20 @@ h2{
   transition: 0.4s;
 }
 .service:hover{
-  background: #ddd;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
-.service i{
-  color: #0020BF;
-  font-size: 50px;
+.index-icons{
   margin-bottom: 30px;
 }
 
-h3{
-  font-weight: 500;
-  color: #666565;
-
-}
 
 .index-servbutton {
-display: flex;
 justify-content: center;
 align-items: center;
 color: #333232;
 background: transparent;
 border: solid #0020BF;
+border-width: 2px;
 width: 200px;
 height: 40px;
 font-size: 18px;
@@ -292,12 +293,14 @@ color: #fff;
 color: #F7F4F4;
 background: transparent;
 border: solid #F7F4F4;
+border-width: 2px;
 width: 200px;
 height: 40px;
 font-size: 18px;
 font-weight: 600;
 letter-spacing: 1px;
 border-radius: 15px;
+margin-top: 40px;
 cursor: pointer;
 transition-property: background;
 box-shadow: 2px 2px 4px #5E5E5E;
