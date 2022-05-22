@@ -10,11 +10,6 @@
   background-color: #5CBFCC;
 }
 
-
-body{
-  background: #F7F4F4;
-}
-
 .afdeling {
   border-bottom: 2px solid #E5E2E2;
   color: #333232;
@@ -125,11 +120,12 @@ form .kontakt-rækker .kontakt-tekstområde{
   color: #0020BF;
   position: absolute;
   margin-top: 550px;
-  background: #F7F4F4;
+  background: transparent;
   border: solid #0020BF;
+  border-width: 2px;
   width: 200px;
   height: 40px;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;

@@ -20,181 +20,73 @@ background-color: #0020BF;
 
 
 /* galleri kontainer */
-#indeks-galleri {
 
-    z-index: 100;
-    padding: 150px 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: auto;
-    grid-gap: 10px;
-    grid-template-areas:
-    "galleri-p galleri-p galleri-p "
-    "galleri-h2 galleri-h2 galleri-h2 "
-    "img1 img2 img3 "
-    "img4 img5 img6 "
-    "img7 img8 img9" ;
-}
-
-.wrapper-galleri {
-margin-top: 0px;
-
-}
-
-#indeks-galleri .galleri-img {
+.index-galleri{
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1000px;
     width: 100%;
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
+    margin: 0 auto;
+    padding: 150px 20px;
 
 }
 
-/* billeder */
-
-#indeks-galleri p{
-   grid-area: galleri-p;
+.index-galleri .index-cases-images .index-image-boks{
+    position: relative;
+    height: 300px;
+    width: 303px;
+    border-radius: 6px;
+    overflow: hidden;
 }
-
-#indeks-galleri h2{
-   grid-area: galleri-h2;
-}
-
-#indeks-galleri .img4{
-   grid-area: img4;
-   background-image: url(../images/img-galleri/bil.png);
-
-}
-
-#indeks-galleri .img5{
-   grid-area: img5;
-   background-image: url(../images/img-galleri/bygning.png);
-}
-
-#indeks-galleri .img6{
-   grid-area: img6;
-   background-image: url(../images/img-galleri/vindmoelle.png);
-}
-
-
-/* galleri billede titler ved hoover */
-.galleri-img div {
-    width:  100%;
-    height: 100%;
-    opacity: 0;
+.index-cases-images{
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+}
+.index-cases-images .index-image-boks{
+    margin: 8px;
+}
+.index-cases-images .index-image-boks img{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.2s linear;
+}
+
+.upside-down{
+  padding-top: 115px;
+}
+
+.index-image-boks:hover img{
+    transform: scale(1.05);
+}
+.index-image-boks h4{
+    position: absolute;
+    text-align: center;
+    bottom: 10px;
+    left: 100px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
 }
 
 
-
-.galleri-img a {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  color: #ffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: 2px 2px 4px #5E5E5E;
+@media (max-width: 1020px) {
+  .upside-down{
+    padding-top: 20px;
+    transform: rotate(38deg);
+    padding-left: 40px;
+  }
 }
-
-.galleri-img div:hover {
-    opacity: 1;
-    transition: all ease-in-out 100ms;
+@media (max-width: 735px) {
+  .upside-down{
+    transform: rotate(38deg);
+        padding-top: 50px;
+        padding-right: 45px;
+  }
 }
-
-/* popup vindue når klikket på */
-
-.img-window {
-   width: 100vw;
-   height: 100vh;
-   background-color: rgba(0, 0, 0, 0.8);
-   position: fixed;
-   top: 0;
-   left: 0;
-   cursor: pointer;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   z-index: 100;
-}
-
-.img-window img {
-   max-height: 80vh;
-   max-width: 80vw;
-}
-
-/* næste billede styling */
-.img-btn-next {
-   display: block;
-   padding: 6px 10px;
-   border-radius: 4px;
-   background-color: #111111;
-   position: fixed;
-   top: 48vh;
-   z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: white;
-   cursor: pointer;
-   text-transform: uppercase;
-}
-
-.img-btn-next:hover {
-   opacity: 0.8;
-}
-
-.img-btn-prev {
-   display: block;
-   padding: 6px 10px;
-   border-radius: 4px;
-   background-color: #111111;
-   position: fixed;
-   top: 48vh;
-   z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: white;
-   cursor: pointer;
-   text-transform: uppercase;
-}
-
-.img-btn-prev:hover {
-   opacity: 0.8;
-}
-
-
-}
-
-
-.overlay-text-popup {
-  display: block;
-   padding: 6px 10px;
-   border-radius: 4px;
-   background-color: #111111;
-   position: fixed;
-   top: 30vh;
-   left: 50vw;
-   z-index: 500;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: white;
-   cursor: pointer;
-   text-transform: uppercase;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -211,6 +103,7 @@ margin-top: 0px;
 .cen{
   max-width: 1200px;
   margin: auto;
+  margin-top: 40px;
   overflow: hidden;
   padding: 20px;
 }
