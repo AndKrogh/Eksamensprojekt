@@ -18,15 +18,20 @@
 }
 
 /* Active/current link */
-.sidebar a.active {
+/* .sidebar a.active {
+  background-color: #0020BF;
+  color: white;
+} */
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
   background-color: #0020BF;
   color: white;
 }
 
-/* Links on mouse-over */
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+.sidebar a:focus { 
+    background-color: blue;
+    color: white;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
