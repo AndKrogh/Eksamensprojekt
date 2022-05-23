@@ -1,0 +1,52 @@
+
+
+div.gallery {
+}
+
+div.gallery:hover {
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+.upside-down{
+  padding-top: 180px;
+}
+
+@media only screen and (max-width: 800px) {
+  .responsive {
+    width: 100%;
+  }
+
+  .upside-down{
+    transform: rotate(35deg);
+        padding-top: 100px;
+        padding-right: 45px;
+        padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

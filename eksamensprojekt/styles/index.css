@@ -21,126 +21,84 @@ background-color: #0020BF;
 
 /* galleri kontainer */
 
-
-.index-galleri{
-    position: relative;
-    text-align: center;
-    box-sizing: border-box;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 75px 20px;
-
+.cases-tekst{
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
 }
 
-.index-galleri .index-cases-images .index-image-boks{
-    position: relative;
-    height: 300px;
-    width: 303px;
-    overflow: hidden;
+.cases-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  box-sizing: border-box;
 }
-.index-cases-images{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
+
+div.gallery {
+  padding: 100px 0px;
+
 }
-.index-cases-images .index-image-boks{
-    margin: 8px;
+
+div.gallery:hover {
 }
-.index-cases-images .index-image-boks img{
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  float: left;
+  width: 24.99999%;
 }
 
 .upside-down{
-  padding-top: 115px;
+  padding-top: 180px;
 }
 
-.index-image-boks:hover img{
-}
-
-.kia-tekst{
-    position: absolute;
-    text-align: center;
-    bottom: 20px;
-    left: 135px;
-    color: #fff;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-
-.lmwindpower-tekst{
-    position: absolute;
-    text-align: center;
-    bottom: 20px;
-    left: 80px;
-    color: #fff;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-
-
-.upside-down-tekst{
-    position: absolute;
-    text-align: center;
-    bottom: 250px;
-    left: 125px;
-    font-size: 20px;
-    text-transform: capitalize;
-    color: gray;
-}
-
-.index-casbutton {
-  justify-content: center;
-  align-items: center;
-  color: #333232;
-  background: transparent;
-  border: solid #0020BF;
-  border-width: 2px;
-  width: 150px;
-  height: 25px;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  border-radius: 15px;
-  cursor: pointer;
-  transition-property: background;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
   }
 
-.index-casbutton:hover{
-  background: #0020BF;
-  color: #fff;
-  }
-
-@media (max-width: 1020px) {
   .upside-down{
-    padding-top: 20px;
-    transform: rotate(38deg);
-    padding-left: 40px;
+    transform: rotate(35deg);
+        padding-top: 100px;
+        padding-right: 25px;
+        padding-left: 20px;
   }
-  .upside-down-tekst{
-    transform: rotate(-38deg);
-    color: white;
-    bottom: 70px;
-    left: 230px;
-      }
-}
-@media (max-width: 735px) {
-  .upside-down{
-    transform: rotate(38deg);
-        padding-top: 50px;
-        padding-right: 45px;
+  div.gallery {
+    padding: 50px 0px;
+
+  }
+  .cases-section{
+    flex-wrap: wrap;
   }
 
-  .upside-down-tekst{
-    transform: rotate(-38deg);
-    color: white;
-    bottom: 70px;
-    left: 230px;
-      }
+  .cases-tekst{
+  position: relative;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
