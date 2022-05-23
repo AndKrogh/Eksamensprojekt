@@ -8,6 +8,7 @@ function afdelingFunction() {
 
   for (let i = 0; i < afdelingArray.length; ++i) {
     dropdown[dropdown.length] = new Option(afdelingArray[i], afdelingArray[i]);
+    // linje 10 tager fat i linje 7 og oprætter en option hvor den tager fat i første element i array og sætter value og text til at være netop denne//
   }
 }
   afdelingFunction()
