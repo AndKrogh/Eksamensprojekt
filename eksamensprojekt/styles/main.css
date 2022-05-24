@@ -293,7 +293,7 @@ body{
   text-align: center;
   overflow: hidden;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 .footerOverskrift{
@@ -322,7 +322,7 @@ hr {
 width: 70%;
 margin-left: auto;
 margin-right: auto;
-margin-top: 15px;
+margin-top: 35px;
 color: #666565;
 }
 
