@@ -75,6 +75,7 @@ text-align: left;
 margin-top: 5%;
 margin-left: 50%;
 margin-right: 20%;
+color: #666565;
 }
 
 .karriereText2{
@@ -82,12 +83,13 @@ text-align: left;
 margin-top: 5%;
 margin-left: 20%;
 margin-right: 50%;
+color: #666565;
 }
 
 .karrierebtn{
   border: 2px solid #0020BF;
   background-color: #ffffff;
-  color: #333232;
+  color: #666565;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
