@@ -28,9 +28,11 @@ body{
 .logo img {
   display: block;
   margin-right: auto;
-  width: 5%;
   padding: 10px;
   float: left;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
 }
 
 .navbtn{
@@ -40,7 +42,7 @@ body{
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .navbtn:hover {
@@ -90,7 +92,7 @@ body{
   width: 100%;
   transform: scaleX(0);
   height: 2px;
-  bottom: 0;
+  bottom: 15px;
   left: 0;
   background-color: #0020BF;
   transform-origin: bottom right;
@@ -184,10 +186,10 @@ body{
   .menu-toggle{
     position: fixed;
     z-index: 9999;
-    right: 5%;
-    top: 5%;
-    width: 2rem;
-    height: 2rem;
+    right: 10px;
+    top: 10px;
+    width: 3rem;
+    height: 3rem;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -299,7 +301,7 @@ body{
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 25px;
   margin: 0px 50px 0px 50px;
 }
 

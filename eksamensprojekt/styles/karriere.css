@@ -14,9 +14,11 @@ color: #666565;
 }
 
 .karriereUndertekst {
-text-align: center;
+text-align: left;
 margin-top: 1.5rem;
 color: #666565;
+margin-left: 25%;
+margin-right: 25%;
 }
 
 .karriereContainer{
@@ -48,22 +50,72 @@ border-radius: 5px;
 height: 30%;
 width: auto;
 float: left;
+margin-left: 20%;
 }
 
 .imgbox2 {
-height: 30%;
+height: 10%;
 width: auto;
 float: right;
+margin-right: 20%;
+}
+
+.karriereimg1{
+  height: 300px;
+  width: 300px;
+}
+
+.karriereimg2{
+  height: 300px;
+  width: 300px;
 }
 
 .karriereText1{
 text-align: left;
-float:right;
-margin:3rem;
+margin-top: 5%;
+margin-left: 50%;
+margin-right: 20%;
 }
 
 .karriereText2{
 text-align: left;
-float:left;
-margin:3rem;
+margin-top: 5%;
+margin-left: 20%;
+margin-right: 50%;
+}
+
+.karrierebtn{
+  border: 2px solid #0020BF;
+  background-color: #ffffff;
+  color: #333232;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 25px;
+  margin-top: 5%;
+}
+
+.karrierebtn:hover {
+  background-color: #0020BF;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .karriereText1{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .karriereText2{
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+  .karriereimg1{
+    display: none;
+  }
+
+  .karriereimg2{
+    display: none;
+  }
 }
