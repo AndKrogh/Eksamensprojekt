@@ -21,8 +21,9 @@ background-color: #0020BF;
 
 /* galleri kontainer */
 
-.cases-tekst{
-  position: absolute;
+.cases-baggrund{
+  background-color: #f1f1f1;
+  margin: 50px 120px;
   text-align: center;
   justify-content: center;
   padding-top: 40px;
@@ -38,8 +39,8 @@ background-color: #0020BF;
 
 
 div.gallery {
-  padding: 100px 0px;
-
+padding-bottom: 60px;
+padding-top: 50px;
 }
 
 div.gallery:hover {
@@ -53,15 +54,13 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  font-weight: 600;
+  color: #333232;
 }
 
 .responsive {
   float: left;
   width: 24.99999%;
-}
-
-.upside-down{
-  padding-top: 180px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -173,8 +172,7 @@ color: #fff;
   box-sizing: border-box;
 }
 
-.index-billede {
-  color: white;
+.index-karbillede {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -183,7 +181,7 @@ color: #fff;
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../eksamensprojekt/images/andre/karriere.jpg");
+  background-image: url("C:/Users/frede/OneDrive/Dokumenter/GitHub/Eksamensprojekt/eksamensprojekt/images/img-galleri/karriere1.png");
 }
 
 .index-imtekst{
@@ -241,6 +239,8 @@ text-shadow: 2px 2px 4px #F7F4F4;
     padding: 2em 8em;
     width: 100%;
   }
+
+
 /* Karriere segment slut */
 }
 
@@ -304,6 +304,11 @@ text-shadow: 2px 2px 4px #F7F4F4;
 @media screen and (max-width: 800px) {
   .service{
     width: 50%;
+  }
+
+  .cases-baggrund{
+    background-color: #f1f1f1;
+    margin: 50px 0px;
   }
 }
 @media screen and (max-width: 500px) {
