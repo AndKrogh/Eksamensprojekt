@@ -39,7 +39,7 @@ body{
 .navbtn{
   border: 2px solid #0020BF;
   background-color: #ffffff;
-  color: #333232;
+  color: #666565;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -48,7 +48,7 @@ body{
 
 .navbtn:hover {
   background-color: #0020BF;
-  color: #ffffff;
+  color: #F7F4F4;
 }
 
 .navright{
@@ -240,7 +240,7 @@ body{
 
 .banner{
   height: 30vh;
-  color: #f7f7f4;
+  color: #F7F4F4;
   padding-top: 160px;
   text-align: center;
 }
@@ -298,14 +298,14 @@ body{
 
 .footerOverskrift{
   font-size: 30px;
-  color: #333232;
+  color: #666565;
   margin-bottom: 15px;
 }
 
 .btn{
   border: 2px solid #0020BF;
   background-color: #ffffff;
-  color: #333232;
+  color: #666565;
   padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
@@ -315,7 +315,7 @@ body{
 
 .btn:hover {
   background-color: #0020BF;
-  color: #ffffff;
+  color: #F7F4F4;
 }
 
 hr {
@@ -365,6 +365,7 @@ color: #666565;
 
 .fa-brands{
   font-size: 30px;
+  color: #666565;
 }
 
 @media screen and (max-width: 600px) {
