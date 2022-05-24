@@ -12,10 +12,17 @@
     <link rel="stylesheet" href="..\eksamensprojekt\styles\main.css">
     <!--Javascript-->
     <script src="..\eksamensprojekt\script\frederik.js" defer></script>
+    <script src="script/burgermenu.js" defer></script>
   </head>
   <body>
     <!--Header start-->
     <header>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
       <div class="navbar">
         <div class="logo" onclick="window.location.href='index.html'">
           <img src="images/pentia_logo_blue.svg" alt="logo">
@@ -25,14 +32,17 @@
         </div>
         <nav class="nav">
           <ul class="navPunkter">
-            <li><a href="">Stratecution</a></li>
-            <li><a href="cases.html">Cases</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="karriere.html">Karriere</a></li>
-            <li><a href="">Nyt</a></li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Om Pentia</a></li>
+            <li class="nav-link"><a href="">Stratecution</a></li>
+            <li class="nav-link"><a href="cases.html">Cases</a></li>
+            <li class="nav-link"><a href="">Services</a></li>
+            <li class="nav-link"><a href="karriere.html">Karriere</a></li>
+            <li class="nav-link"><a href="">Nyt</a></li>
+            <li class="nav-link"><a href="">Events</a></li>
+            <li class="nav-link"><a href="">Om Pentia</a></li>
           </ul>
+          <div class="contact">
+            <a href="kontakt.html"><p>Kontakt</p></a>
+          </div>
         </nav>
       </div>
     </header>
@@ -154,6 +164,8 @@
         <a href=""><button class="btn">Nyhedsbrev</button></a>
         <a href="kontakt.html"><button class="btn">Ring mig op</button></a>
 
+        <hr>
+
         <div class="wrapper">
           <div class="colum">
             <div class="footertext">
@@ -187,11 +199,11 @@
               <p>+45 70 23 33 30
                 info@pentia.dk
                 cvr-nr. 20868872</p>
-              <p>Kontakt os
-                LinkedIn
-                Instagram
-                Privatlivspolitik
-                Presse</p>
+              <a href="kontakt.html"><p>Kontakt os</p></a>
+              <p>Privatlivspolitik</p>
+              <p>Presse</p>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
             </div>
           </div>
         </div>
