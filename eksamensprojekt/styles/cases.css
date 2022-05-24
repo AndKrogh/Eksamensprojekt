@@ -11,13 +11,12 @@
 
 /* galleri kontainer */
 #indeks-galleri {
-
     z-index: 100;
-    padding: 150px 50px;
+    padding: 0px 50px 200px 0px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 40px;
     grid-template-areas:
     "galleri-p galleri-p galleri-p "
     "galleri-h2 galleri-h2 galleri-h2 "
@@ -54,54 +53,64 @@ margin-top: 0px;
 }
 
 #indeks-galleri .img1{
+   border-radius: 20px;
    grid-area: img1;
    background-image: url(../images/img-galleri/thumbnails/img1.jpg);
 }
 
 #indeks-galleri .img2{
+   border-radius: 20px;
    grid-area: img2;
    background-image: url(../images/img-galleri/thumbnails/img2.jpg);
 
 }
 
 #indeks-galleri .img3{
+   border-radius: 20px;
    grid-area: img3;
    background-image: url(../images/img-galleri/thumbnails/img3.jpg);
 }
 
 #indeks-galleri .img4{
+   border-radius: 20px;
    grid-area: img4;
    background-image: url(../images/img-galleri/thumbnails/img4.jpg);
 
 }
 
 #indeks-galleri .img5{
+   border-radius: 20px;
    grid-area: img5;
    background-image: url(../images/img-galleri/thumbnails/img5.jpg);
 }
 
 #indeks-galleri .img6{
+   border-radius: 20px;
    grid-area: img6;
    background-image: url(../images/img-galleri/thumbnails/img6.jpg);
 }
 
 #indeks-galleri .img7{
+   border-radius: 20px;
    grid-area: img7;
    background-image: url(../images/img-galleri/thumbnails/img7.jpg);
 }
 
 #indeks-galleri .img8{
+   border-radius: 20px;
    grid-area: img8;
    background-image: url(../images/img-galleri/thumbnails/img8.jpg);
 }
 
 #indeks-galleri .img9{
+   border-radius: 20px;
    grid-area: img9;
    background-image: url(../images/img-galleri/thumbnails/img9.jpg);
 }
 
 /* galleri billede titler ved hoover */
 .galleri-img div {
+   border-radius: 20px;
     width:  100%;
     height: 100%;
     background-color: black;
