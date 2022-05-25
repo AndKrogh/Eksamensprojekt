@@ -25,10 +25,10 @@
 }
 
 /* Active/current link */
-/* .sidebar a.active {
+.sidebar a.active {
   background-color: #0020BF;
   color: white;
-} */
+}
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
@@ -37,8 +37,7 @@
 }
 
 .sidebar a:focus { 
-    background-color: #0020BF;
-    color: white;
+  background-color: #bf0020;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
