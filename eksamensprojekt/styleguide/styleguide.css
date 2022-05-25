@@ -84,3 +84,39 @@ div.content {
   transition-property: background;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 }
+
+.boks{
+  margin: 70px 30px 70px 60px;
+}
+
+.container{
+  margin-top: 100px;
+}
+
+
+.circle{
+    background-color: #2a1d88;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+
+}
+.circle2{
+  background-color: #E0BE36;
+  width:70px;
+  height:70px;
+  border-radius: 70%;
+}
+
+.circle3{
+    background-color: #135975;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+}
+.circle4{
+    background-color: #000000;
+    width:70px;
+    height:70px;
+    border-radius: 70%;
+}
