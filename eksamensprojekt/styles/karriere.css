@@ -102,6 +102,37 @@ color: #666565;
   color: #F7F4F4;
 }
 
+.karrierecolumn {
+  float: left;
+  width: 33.33%;
+  padding: 16px;
+  margin-bottom: 30px;
+  border-right: 2px solid #0020BF;
+  color: #666565;
+  box-sizing: border-box;
+}
+
+.karrierecolumnlast{
+  float: left;
+  width: 33.33%;
+  padding: 16px;
+  margin-bottom: 30px;
+  color: #666565;
+  box-sizing: border-box;
+}
+
+.karriererow {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  color: #666565;
+}
+
+.karriereby{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 @media screen and (max-width: 1000px) {
   .karriereText1{
     margin-left: 30%;
