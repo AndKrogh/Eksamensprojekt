@@ -5,6 +5,10 @@
     
 }
 
+.banner {
+  background-color: #0020BF;
+}
+
 /* The side navigation menu */
 .sidebar {
   margin: 0;
@@ -87,7 +91,7 @@ div.content {
 }
 
 .boks{
-  padding: 0px 30px 90px 60px;
+  padding:30px 30px 90px 60px;
 }
 
 .container{
