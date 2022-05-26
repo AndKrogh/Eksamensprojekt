@@ -110,6 +110,7 @@ color: #666565;
   border-right: 2px solid #0020BF;
   color: #666565;
   box-sizing: border-box;
+  background: #f1f1f1;
 }
 
 .karrierecolumnlast{
@@ -119,6 +120,7 @@ color: #666565;
   margin-bottom: 50px;
   color: #666565;
   box-sizing: border-box;
+  background: #f1f1f1;
 }
 
 .karriererow {
