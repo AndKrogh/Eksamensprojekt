@@ -106,7 +106,7 @@ color: #666565;
   float: left;
   width: 33.33%;
   padding: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   border-right: 2px solid #0020BF;
   color: #666565;
   box-sizing: border-box;
@@ -116,7 +116,7 @@ color: #666565;
   float: left;
   width: 33.33%;
   padding: 16px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: #666565;
   box-sizing: border-box;
 }
@@ -124,7 +124,7 @@ color: #666565;
 .karriererow {
   margin-left: 10%;
   margin-right: 10%;
-  margin-top: 30px;
+  margin-top: 50px;
   color: #666565;
 }
 
