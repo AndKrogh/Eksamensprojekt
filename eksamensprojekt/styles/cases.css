@@ -12,16 +12,17 @@
 /* galleri kontainer */
 #indeks-galleri {
     z-index: 100;
-    padding: 0px 100px 200px 100px;
+    padding:10px 100px 200px 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: auto;
-    grid-gap: 40px;
+    grid-gap: 20px;
     grid-template-areas:
-    "galleri-p galleri-p galleri-p "
-    "galleri-h2 galleri-h2 galleri-h2 "
+    "galleri-titel1 galleri-titel2 galleri-titel3 "
     "img1 img2 img3 "
+    "galleri-titel4 galleri-titel5 galleri-titel6 "
     "img4 img5 img6 "
+    "galleri-titel7 galleri-titel8 galleri-titel9 "
     "img7 img8 img9" ;
 }
 
@@ -41,15 +42,55 @@ margin-top: 0px;
 
 }
 
+.undertitel {
+   text-align: center;
+   margin: 40px 0px 0px 0px;
+}
+
 /* billeder */
 
-#indeks-galleri p{
-   grid-area: galleri-p;
+#indeks-galleri .galleri-titel1{
+   grid-area: galleri-titel1;
    color: #666565;
 }
 
-#indeks-galleri h2{
-   grid-area: galleri-h2;
+#indeks-galleri .galleri-titel2{
+   grid-area: galleri-titel2;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel3{
+   grid-area: galleri-titel3;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel4{
+   grid-area: galleri-titel4;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel5{
+   grid-area: galleri-titel5;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel6{
+   grid-area: galleri-titel6;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel7{
+   grid-area: galleri-titel7;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel8{
+   grid-area: galleri-titel8;
+   color: #666565;
+}
+
+#indeks-galleri .galleri-titel9{
+   grid-area: galleri-titel9;
    color: #666565;
 }
 
@@ -254,6 +295,10 @@ h2{
    width: 100%;
 }
 
+.titel-cases {
+   text-align: center;
+   margin-top: 10px;
+}
 
 
 
