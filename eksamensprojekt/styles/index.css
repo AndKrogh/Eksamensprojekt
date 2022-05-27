@@ -4,14 +4,16 @@
 }
 
 
-h2{
+h4{
   margin: 0;
   color: #666565;
+  font-size: 30px;
 }
 
-h3 {
+h6 {
     font-weight: 500;
     color: #666565;
+    font-size: 20px;
   }
 
 .banner{
@@ -29,6 +31,30 @@ background-color: #0020BF;
   justify-content: center;
   padding-top: 40px;
 }
+
+.index-casbutton{
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #666565;
+  background: transparent;
+  border: solid #0020BF;
+  border-width: 2px;
+  width: 150px;
+  height: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition-property: background;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+
+  .index-casbutton:hover{
+  background: #0020BF;
+  color: #F7F4F4;
+  }
 
 .cases-section{
   display: flex;
