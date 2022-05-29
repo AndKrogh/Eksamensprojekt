@@ -105,8 +105,10 @@ body{
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
 @media screen and (min-width: 1000px) {
-  .contact{
+  .navPunkter li:last-child{
     display: none;
   }
 }
@@ -117,7 +119,6 @@ body{
     position: fixed;
     width: 100%;
     z-index: 100;
-    pointer-events: none;
   }
 
   .navbar.active{
@@ -167,22 +168,6 @@ body{
     opacity: 1;
     left: 0;
     transition: 0.5s;
-  }
-
-  .contact{
-    position: absolute;
-    opacity: 0;
-    bottom: 10%;
-    left: 10%;
-    pointer-events: none;
-  }
-
-  .contact.active{
-    opacity: 1;
-    left: 10%;
-    bottom: 5%;
-    transition: 0.5s;
-    color: #ffffff;
   }
 
   .menu-toggle{
