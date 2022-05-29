@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/karriere.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
     <script src="script/burgermenu.js" defer></script>
+    <script src="script/karriere.js" defer></script>
 </head>
 <body>
   <header>
@@ -50,15 +51,22 @@
     <p class="cases-undertitel">Du finder ikke lige så gode kollegaer andre steder</p>
   </div>
 
-  <p class="karriereUndertekst">Vil du gerne dele din digitale begejstring med en gruppe innovative udviklere, kreative designere og strategiske tænkere? Et job hos os giver dig mulighed for at udleve dine faglige ambitioner samtidig med, at der er plads til familie, venner og fritid. Og så skal du jo selvfølgelig bare have det sjovt!</p>
-
   <div class="imgboxtop">
     <img src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
   </div>
 
+  <p class="karriereUndertekst">Vil du gerne dele din digitale begejstring med en gruppe innovative udviklere, kreative designere og strategiske tænkere? Et job hos os giver dig mulighed for at udleve dine faglige ambitioner samtidig med, at der er plads til familie, venner og fritid. Og så skal du jo selvfølgelig bare have det sjovt!</p>
+
+  <div id="myBtnContainer">
+    <button class="filterbtn active" onclick="filterSelection('all')">Alle</button>
+    <button class="filterbtn" onclick="filterSelection('aarhus')">Aarhus</button>
+    <button class="filterbtn" onclick="filterSelection('copenhagen')"> København</button>
+    <button class="filterbtn" onclick="filterSelection('odense')"> Odense</button>
+  </div>
+
   <section class="karriereContainer">
     <div class="karriereContent">
-      <div class="karrierebox1">
+      <div class="filter karrierebox1 copenhagen">
         <div class="imgbox1">
           <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -69,7 +77,7 @@
         </div>
       </div>
 
-      <div class="karrierebox2">
+      <div class="filter karrierebox2 odense">
         <div class="imgbox2">
           <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -80,29 +88,7 @@
         </div>
       </div>
 
-      <div class="karrierebox1">
-        <div class="imgbox1">
-          <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
-        </div>
-        <div class="karriereText1">
-          <h3>Senior UX Designer</h3>
-          <p>Vil du hjælpe virksomheder og organisationer med at overvinde deres største forretningsudfordringer?</p>
-          <a href=""><button class="karrierebtn">Læs mere</button></a>
-        </div>
-      </div>
-
-      <div class="karrierebox2">
-        <div class="imgbox2">
-          <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
-        </div>
-        <div class="karriereText2">
-          <h3>Awesome Ruby on Rails-udvikler, Odense</h3>
-          <p>Vil du være med til at at udvikle og vedligeholde et system for en af vores kunder samt vores eget SAAS produkt? </p>
-          <a href=""><button class="karrierebtn">Læs mere</button></a>
-        </div>
-      </div>
-
-      <div class="karrierebox1">
+      <div class="filter karrierebox1 aarhus copenhagen">
         <div class="imgbox1">
           <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -113,7 +99,29 @@
         </div>
       </div>
 
-      <div class="karrierebox2">
+      <div class="filter karrierebox2 aarhus copenhagen">
+        <div class="imgbox2">
+          <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
+        </div>
+        <div class="karriereText2">
+          <h3>Senior UX DesignerFrontend Konsulent</h3>
+          <p>Vil du hjælpe virksomheder og organisationer med at overvinde deres største forretningsudfordringer?</p>
+          <a href=""><button class="karrierebtn">Læs mere</button></a>
+        </div>
+      </div>
+
+      <div class="filter karrierebox1 odense">
+        <div class="imgbox1">
+          <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
+        </div>
+        <div class="karriereText1">
+          <h3>Awesome Ruby on Rails-udvikler, Odense</h3>
+          <p>Vil du være med til at at udvikle og vedligeholde et system for en af vores kunder samt vores eget SAAS produkt?</p>
+          <a href=""><button class="karrierebtn">Læs mere</button></a>
+        </div>
+      </div>
+
+      <div class="filter karrierebox2 odense">
         <div class="imgbox2">
           <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
