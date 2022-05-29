@@ -7,12 +7,6 @@
   background-color: #FF5B4C;
 }
 
-.karriereTitel {
-text-align: center;
-margin-top: 20px;
-color: #666565;
-}
-
 .imgboxtop {
 height: 100%;
 width: auto;
@@ -22,14 +16,14 @@ margin-top: 20px;
 
 .karriereUndertekst {
 text-align: left;
-margin-top: 40px;
+margin-top: 30px;
 color: #666565;
 margin-left: 25%;
 margin-right: 25%;
 }
 
 .karriereContainer{
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 .karriereContent{
