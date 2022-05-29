@@ -14,31 +14,6 @@ function afdelingFunction() {
   afdelingFunction()
 //afdeling dropdown slut
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //God dag text start
 function hilsenfunction() {
 
