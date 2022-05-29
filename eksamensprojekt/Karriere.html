@@ -57,16 +57,30 @@
 
   <p class="karriereUndertekst">Vil du gerne dele din digitale begejstring med en gruppe innovative udviklere, kreative designere og strategiske tænkere? Et job hos os giver dig mulighed for at udleve dine faglige ambitioner samtidig med, at der er plads til familie, venner og fritid. Og så skal du jo selvfølgelig bare have det sjovt!</p>
 
-  <div id="myBtnContainer">
-    <button class="filterbtn active" onclick="filterSelection('all')">Alle</button>
-    <button class="filterbtn" onclick="filterSelection('aarhus')">Aarhus</button>
-    <button class="filterbtn" onclick="filterSelection('copenhagen')"> København</button>
-    <button class="filterbtn" onclick="filterSelection('odense')"> Odense</button>
+  <div class="dropdown">
+    <button onclick="lokationDrop()" class="dropdownbtn">Lokation <i class="fa-solid fa-angle-down"></i></button>
+    <div id="lokation" class="dropdown-content">
+      <h3 onclick="filterSelection('all')">Alle</h3>
+      <h3 onclick="filterSelection('aarhus')">Aarhus</h3>
+      <h3 onclick="filterSelection('copenhagen')">København</h3>
+      <h3 onclick="filterSelection('odense')">Odense</h3>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="kompetencerDrop()" class="dropdownbtn">Kompetencer <i class="fa-solid fa-angle-down"></i></button>
+    <div id="kompetencer" class="dropdown-content">
+      <h3 onclick="filterSelection('all')">Alle</h3>
+      <h3 onclick="filterSelection('backend')">Backend</h3>
+      <h3 onclick="filterSelection('frontend')">Frontend</h3>
+      <h3 onclick="filterSelection('projektledere')">Projektledere</h3>
+      <h3 onclick="filterSelection('andet')">Andet</h3>
+    </div>
   </div>
 
   <section class="karriereContainer">
     <div class="karriereContent">
-      <div class="filter karrierebox1 copenhagen">
+      <div class="filter karrierebox1 copenhagen projektledere">
         <div class="imgbox1">
           <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -77,7 +91,7 @@
         </div>
       </div>
 
-      <div class="filter karrierebox2 odense">
+      <div class="filter karrierebox2 odense backend">
         <div class="imgbox2">
           <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -88,7 +102,7 @@
         </div>
       </div>
 
-      <div class="filter karrierebox1 aarhus copenhagen">
+      <div class="filter karrierebox1 aarhus copenhagen frontend">
         <div class="imgbox1">
           <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -99,18 +113,18 @@
         </div>
       </div>
 
-      <div class="filter karrierebox2 aarhus copenhagen">
+      <div class="filter karrierebox2 aarhus copenhagen frontend">
         <div class="imgbox2">
           <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
         <div class="karriereText2">
-          <h3>Senior UX DesignerFrontend Konsulent</h3>
+          <h3>Senior UX Designer Frontend Konsulent</h3>
           <p>Vil du hjælpe virksomheder og organisationer med at overvinde deres største forretningsudfordringer?</p>
           <a href=""><button class="karrierebtn">Læs mere</button></a>
         </div>
       </div>
 
-      <div class="filter karrierebox1 odense">
+      <div class="filter karrierebox1 odense backend">
         <div class="imgbox1">
           <img class="karriereimg1" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -121,7 +135,7 @@
         </div>
       </div>
 
-      <div class="filter karrierebox2 odense">
+      <div class="filter karrierebox2 odense andet">
         <div class="imgbox2">
           <img class="karriereimg2" src="..\eksamensprojekt\images\andre\pentia_pentagon.png" alt="Pentia pentagon">
         </div>
@@ -196,7 +210,7 @@
             <a href="kontakt.html"><p>Kontakt os</p></a>
             <p>Privatlivspolitik</p>
             <p>Presse</p>
-            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
             <i class="fa-brands fa-linkedin"></i>
           </div>
         </div>
