@@ -106,7 +106,6 @@ body{
   transform-origin: bottom left;
 }
 
-
 @media screen and (min-width: 1000px) {
   .navPunkter li:last-child{
     display: none;
@@ -149,10 +148,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     list-style: none;
+    margin-top: 20px;
   }
 
   .navPunkter a{
     color: #ffffff;
+    margin-top: -20px;
   }
 
   .navright{
