@@ -11,7 +11,7 @@ function kompetencerDrop() {
 
 filterSelection("all")
 function filterSelection(c) {
-  var x, i;
+  let x, i;
   x = document.getElementsByClassName("filter");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
@@ -21,7 +21,7 @@ function filterSelection(c) {
 }
 
 function AddClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
@@ -30,7 +30,7 @@ function AddClass(element, name) {
 }
 
 function RemoveClass(element, name) {
-  var i, arr1, arr2;
+  let i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
