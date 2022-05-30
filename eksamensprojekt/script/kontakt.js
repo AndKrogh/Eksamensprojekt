@@ -14,6 +14,8 @@ function afdelingFunction() {
 //afdeling dropdown slut
 
 //God dag text start
+
+function hilsenFunction(){
   let time = new Date().getHours();
   let hilsen;
 
@@ -25,4 +27,7 @@ function afdelingFunction() {
 
   document.getElementById("hilsen").innerHTML = hilsen;
 }
+
+hilsenFunciton();
+
 //God dag text slut
