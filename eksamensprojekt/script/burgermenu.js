@@ -9,23 +9,23 @@ menuToggler.addEventListener('click', ()=>{
 
   if (menuToggler.classList.contains('active')) {
     setTimeout(()=>{
-      nav.classList.add('active')
-    },100)
+      nav.classList.add('active');
+    },100);
 
     for (let i = 0; i < navLinks.length; i++) {
       navLinks[i].classList.remove('active');
       setTimeout(()=>{
-        navLinks[i].classList.add('active')
-      }, i * 100)
+        navLinks[i].classList.add('active');
+      }, i * 100);
     }
   }
-})
+});
 
 
 mybutton = document.getElementById("topBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction();};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {

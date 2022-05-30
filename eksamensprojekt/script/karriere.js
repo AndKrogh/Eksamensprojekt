@@ -9,7 +9,7 @@ function kompetencerDrop() {
 
 //filter del
 
-filterSelection("all")
+filterSelection("all");
 function filterSelection(c) {
   let x, i;
   x = document.getElementsByClassName("filter");
