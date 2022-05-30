@@ -28,6 +28,6 @@ function hilsenFunction(){
   document.getElementById("hilsen").innerHTML = hilsen;
 }
 
-hilsenFunciton();
+hilsenFunction();
 
 //God dag text slut
