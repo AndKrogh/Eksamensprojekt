@@ -10,7 +10,7 @@ function afdelingFunction() {
     dropdown[dropdown.length] = new Option(afdelingArray[i], afdelingArray[i]);
   }
 }
-  afdelingFunction()
+  afdelingFunction();
 //afdeling dropdown slut
 
 //God dag text start

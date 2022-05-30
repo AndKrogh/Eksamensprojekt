@@ -13,7 +13,7 @@ if(galleryImg) {
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
             let getImgUrlPos = getFullImgUrl.split("eksamensprojekt/images/img-galleri/thumbnails/");
             let setNewImgUrl = getImgUrlPos[1].replace('")', '');
-        
+
             /* Kompenserer for z-indeks (starter ved 0 og ikke 1). Plusser 1 på, så det første billede svarer til nummer 1  */
             getLatestOpenedeImg = index + 1;
 
@@ -31,7 +31,7 @@ if(galleryImg) {
             newImg.setAttribute("id", "current-img");
 
 
-            
+
 
 
 
@@ -66,9 +66,9 @@ if(galleryImg) {
                 overlayP.setAttribute("class", "overlay-text-popup");
                 overlayP.style.textAlign = "center" ; */
 
-            }
+            };
 
-        }
+        };
 
     });
 }
@@ -78,7 +78,7 @@ function closeImg () {
     document.querySelector(".img-btn-next").remove();
     document.querySelector(".img-btn-prev").remove();
     document.querySelector(".divPopup").remove();
-    
+
 
 }
 
@@ -117,9 +117,6 @@ function changeImg(changeDir) {
 
         let prevBtn = document.querySelector(".img-btn-prev");
         prevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
-
-        
-
-    }
+    };
 
 }
