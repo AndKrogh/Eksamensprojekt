@@ -119,7 +119,7 @@ function changeImg(changeDir) {
         }
     }
 
-    newImg.setAttribute("src", "images/img-galleri/img" + calcNewImg + ".webp");
+    newImg.setAttribute("src", "images/img-galleri/img" + calcNewImg + ".WebP");
     newImg.setAttribute("id", "current-img");
 
 
