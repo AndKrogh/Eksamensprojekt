@@ -56,19 +56,29 @@ if(galleryImg) {
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
                 let overlayDiv = document.createElement("div");
-                let overlayP = document.createElement("p");
-                let tekstP = document.createElement("p");
+                let overlayH5 = document.createElement("h5");
+                let tekstP = document.createElement("p"); 
+                let mereTekstP = document.createElement("p"); 
+                let linkP = document.createElement("p");
                 let overlayHeader = document.createTextNode("Struers");
                 let overlayTekst = document.createTextNode("50% flere leads hos Struers med nyt digitalt kontaktflow");
-                overlayDiv.appendChild(overlayP);
+                let overlayMereTekst = document.createTextNode("Selvom Struers var dygtige til at tiltrække trafik til deres website, fik Struers ikke nok gode leads. Derfor besluttede de sig for i samarbejde med Pentia at optimere kontakt-flowet på websitet.");
+                let linkPTekst = document.createTextNode("Læs mere om Struer casen");
+                overlayDiv.appendChild(overlayH5);
                 overlayDiv.appendChild(tekstP);
-                overlayP.appendChild(overlayHeader);
+                overlayDiv.appendChild(mereTekstP);
+                overlayDiv.appendChild(linkP);
+                overlayH5.appendChild(overlayHeader);
                 tekstP.appendChild(overlayTekst);
+                mereTekstP.appendChild(overlayMereTekst);
+                linkP.appendChild(linkPTekst);
                 container.appendChild(overlayDiv);
                 overlayDiv.setAttribute("class", "divPopup");
                 overlayDiv.setAttribute("onclick", "changeImg(0)");
-                overlayP.setAttribute("class", "overlay-header-popup");
+                overlayH5.setAttribute("class", "overlay-header-popup");
                 tekstP.setAttribute("class", "overlay-text-popup");
+                mereTekstP.setAttribute("class", "overlay-meretekst-popup");
+                linkP.setAttribute("class", "overlay-linkptekst-popup");
             }
 
         };
