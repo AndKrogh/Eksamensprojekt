@@ -34,10 +34,10 @@ if(galleryImg) {
 
 
 
-
+            /* Laver næste og forrige knap med JS når det næste billeder er færdig med at loade. */
             newImg.onload = function () {
                 let imgWidth = this.width;
-                let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+                let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 100;
 
                 let newNextBtn = document.createElement("a");
                 let btnNextText = document.createTextNode("Næste");
@@ -48,14 +48,14 @@ if(galleryImg) {
                 newNextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
 
                 let newPrevBtn = document.createElement("a");
-                let btnPrevText = document.createTextNode("Tidligere");
+                let btnPrevText = document.createTextNode("Forrige");
                 newPrevBtn.appendChild(btnPrevText);
                 container.appendChild(newPrevBtn);
                 newPrevBtn.setAttribute("class", "img-btn-prev");
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
-       /*          let overlayDiv = document.createElement("div");
+                       /*          let overlayDiv = document.createElement("div");
                 let overlayP = document.createElement("p");
                 let overlayText = document.createTextNode("Hej med dig ");
                 overlayDiv. appendChild(overlayP);
@@ -65,14 +65,15 @@ if(galleryImg) {
                 overlayDiv.setAttribute("onclick", "changeImg(0)");
                 overlayP.setAttribute("class", "overlay-text-popup");
                 overlayP.style.textAlign = "center" ; */
-
-            };
+            }
 
         };
 
     });
 }
 
+
+/* Fjerner billederne */
 function closeImg () {
     document.querySelector(".img-window").remove();
     document.querySelector(".img-btn-next").remove();
@@ -82,6 +83,7 @@ function closeImg () {
 
 }
 
+/* Laver et nyt img og sætter det ind i forhold til hvilket nummer billedet er i forhold til rækkefølge */
 function changeImg(changeDir) {
     document.querySelector("#current-img").remove();
 
@@ -106,17 +108,21 @@ function changeImg(changeDir) {
     newImg.setAttribute("src", "images/img-galleri/img" + calcNewImg + ".webp");
     newImg.setAttribute("id", "current-img");
 
+
+    /* Indeks for det nye åbnet billede */
     getLatestOpenedeImg = calcNewImg;
 
+
+    /* ændrer knappen og positionen af knappen i forhold til det nye billede */
     newImg.onload = function () {
         let imgWidth = this.Width;
-        let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+        let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 100;
 
         let nextBtn = document.querySelector(".img-btn-next");
         nextBtn.style.cssText = "right: " + calcImgToEdge + "px;";
 
-        let prevBtn = document.querySelector(".img-btn-prev");
-        prevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
-    };
+        let prevBtn = document.querySelector(".img-btn-next");
+        prevBtn.style.cssText = "right-+: " + calcImgToEdge + "px;";
+    }
 
 }
