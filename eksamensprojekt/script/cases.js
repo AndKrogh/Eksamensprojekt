@@ -56,14 +56,19 @@ if(galleryImg) {
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
                 let overlayDiv = document.createElement("div");
-                let overlayP = document.createElement("a");
-                let overlayText = document.createTextNode("Struers");
-                overlayDiv. appendChild(overlayP);
-                overlayP.appendChild(overlayText);
+                let overlayP = document.createElement("p");
+                let tekstP = document.createElement("p");
+                let overlayHeader = document.createTextNode("Struers");
+                let overlayTekst = document.createTextNode("50% flere leads hos Struers med nyt digitalt kontaktflow");
+                overlayDiv.appendChild(overlayP);
+                overlayDiv.appendChild(tekstP);
+                overlayP.appendChild(overlayHeader);
+                tekstP.appendChild(overlayTekst);
                 container.appendChild(overlayDiv);
                 overlayDiv.setAttribute("class", "divPopup");
                 overlayDiv.setAttribute("onclick", "changeImg(0)");
-                overlayP.setAttribute("class", "overlay-text-popup");
+                overlayP.setAttribute("class", "overlay-header-popup");
+                tekstP.setAttribute("class", "overlay-text-popup");
             }
 
         };
