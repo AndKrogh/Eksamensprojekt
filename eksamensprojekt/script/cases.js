@@ -55,16 +55,15 @@ if(galleryImg) {
                 newPrevBtn.setAttribute("onclick", "changeImg(0)");
                 newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px;";
 
-                       /*          let overlayDiv = document.createElement("div");
-                let overlayP = document.createElement("p");
-                let overlayText = document.createTextNode("Hej med dig ");
+                let overlayDiv = document.createElement("div");
+                let overlayP = document.createElement("a");
+                let overlayText = document.createTextNode("Struers");
                 overlayDiv. appendChild(overlayP);
                 overlayP.appendChild(overlayText);
                 container.appendChild(overlayDiv);
                 overlayDiv.setAttribute("class", "divPopup");
                 overlayDiv.setAttribute("onclick", "changeImg(0)");
                 overlayP.setAttribute("class", "overlay-text-popup");
-                overlayP.style.textAlign = "center" ; */
             }
 
         };
