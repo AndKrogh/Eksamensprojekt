@@ -79,12 +79,12 @@ if(galleryImg) {
                 tekstP.setAttribute("class", "overlay-text-popup");
                 mereTekstP.setAttribute("class", "overlay-meretekst-popup");
                 linkP.setAttribute("class", "overlay-linkptekst-popup");
-            }
+            };
 
         };
 
     });
-}
+};
 
 
 /* Fjerner billederne */
